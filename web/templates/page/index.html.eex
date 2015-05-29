@@ -1,0 +1,15 @@
+<div class="row" style="padding: 10px 10px;">
+  <div class="col-md-12 jumbotron" style="height: 65vh; color: #F67938; text-align: left; overflow-y: scroll;" id="messages">
+    <div class="row col-md-12">Connecting...</div>
+  </div>
+</div>
+<div class="row">
+  <div id="typing" style="height: 20px;margin-top:-20px;margin-bottom:5px;margin-left:25px">
+  </div>
+  <div class="col-md-4">
+    <input id="user" class="form-control" type="text" placeholder="Name"/>
+  </div>
+  <div class="col-md-8">
+    <input id="message" class="form-control" type="text" placeholder="says..."/>
+  </div>
+</div>

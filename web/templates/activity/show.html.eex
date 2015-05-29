@@ -1,0 +1,17 @@
+<h2>Show activity</h2>
+
+<ul>
+
+  <li>
+    <strong>User:</strong>
+    <%= @activity.user %>
+  </li>
+
+  <li>
+    <strong>Message:</strong>
+    <%= @activity.message %>
+  </li>
+
+</ul>
+
+<%= link "Back", to: activity_path(@conn, :index) %>
